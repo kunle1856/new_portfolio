@@ -555,7 +555,7 @@ h6 { font-size: 16px; }
 }
 .foliox_tm_hero .right{
 	width:50%;
-	padding-left: 80px;
+	/* padding-left: 80px; */
 }
 .foliox_tm_hero .right img{
 	max-width: 600px;
@@ -623,12 +623,8 @@ h6 { font-size: 16px; }
 	text-align: center;
 }
 .foliox_tm_main_title span{
-	font-size: 21px;
 	font-family: var(--font-family-extra);
 	color: var(--extra-color);
-	font-weight: 500;
-	display: inline-block;
-	margin-bottom: 5px;
 }
 .foliox_tm_main_title h3{
 	font-size: 48px;
@@ -785,6 +781,9 @@ h6 { font-size: 16px; }
 .foliox_tm_about .right .item li:last-child{
 	margin-bottom: 0px;
 }
+.foliox_tm_about .right .item li:last-child  p:first-child{
+	border-bottom:1px solid #00c0ff;
+}
 .foliox_tm_about .right .item li span{
 	font-family: var(--font-family-extra);
 	font-size: 16px;
@@ -794,6 +793,9 @@ h6 { font-size: 16px; }
 }
 .foliox_tm_about .right .item li p{
 	font-size: 16px;
+}
+.foliox_tm_about .right .item li .one{
+	border-bottom:1px solid #00c0ff;
 }
 .foliox_tm_about .right .item li a{
 	color: var(--main-color);
@@ -1476,7 +1478,7 @@ h6 { font-size: 16px; }
 	margin-bottom: 60px;
 }
 .foliox_tm_modalbox .main_details .textbox{
-	width: 70%;
+	width: 100%;
 	padding-right: 40px;
 }
 .foliox_tm_modalbox .main_details .textbox p{
@@ -1486,8 +1488,8 @@ h6 { font-size: 16px; }
 	margin-bottom: 0px;
 }
 .foliox_tm_modalbox .main_details .detailbox{
-	width: 30%;
-	padding-left: 40px;
+	width: 0%;
+	/* padding-left: 40px; */
 }
 .foliox_tm_modalbox .main_details .detailbox > ul{
 	margin: 0px;
@@ -2339,7 +2341,7 @@ input[type=number] {
 	.foliox_tm_hero .job{font-size: 19px;margin-bottom: 35px;}
 	.foliox_tm_button a{padding: 13px 38px;}
 	.foliox_tm_features .list ul li{width: 50%;}
-	.foliox_tm_main_title span{font-size: 19px;}
+	.foliox_tm_main_title span{font-size: 35px;}
 	.foliox_tm_main_title h3{font-size: 35px;}
 	.foliox_tm_about .wrapper{flex-direction: column;}
 	.foliox_tm_about .left{width: 100%;margin-bottom: 60px;}
@@ -2379,7 +2381,7 @@ input[type=number] {
 	.foliox_tm_features .list ul li .list_inner{padding: 40px;}
 	.foliox_tm_features .list ul li .svg{width: 55px;height: 55px;margin-bottom: 25px;}
 	.foliox_tm_features .list ul li .title{margin-bottom: 18px;}
-	.foliox_tm_main_title span{font-size: 17px;}
+	.foliox_tm_main_title span{font-size: 29px;}
 	.foliox_tm_main_title h3{font-size: 29px;}
 	.foliox_tm_about .right .list > ul > li{border: none;width: 100%;}
 	.foliox_tm_about .right .item:first-child{padding-bottom: 0px;}
